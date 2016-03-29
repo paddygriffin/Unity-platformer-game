@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\PlayerMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\playerDestruction.cs">
     <Files>
+      <File FileName="Assets\scripts\playerDestruction.cs" Line="18" Column="2" />
       <File FileName="Assets\scripts\PlayerMovement.cs" Line="41" Column="43" />
+      <File FileName="Assets\scripts\levelManager.cs" Line="24" Column="68" />
+      <File FileName="Assets\scripts\checkPoint.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
