@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\coinCollect.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\levelManager.cs">
     <Files>
-      <File FileName="Assets\scripts\coinCollect.cs" Line="17" Column="39" />
-      <File FileName="Assets\scripts\levelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\levelManager.cs" Line="29" Column="80" />
+      <File FileName="Assets\scripts\coinCollect.cs" Line="15" Column="71" />
       <File FileName="Assets\scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\playerDestruction.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\checkPoint.cs" Line="1" Column="1" />
