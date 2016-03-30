@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: 13a13af8e23b4fc4fb7f9d11cc1afbf9
-timeCreated: 1458833289
+timeCreated: 1459362922
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Player
     21300002: Ground
+    21300004: exit
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -68,6 +69,16 @@ TextureImporter:
         y: 80
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: exit
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 48
+        width: 19
+        height: 28
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
