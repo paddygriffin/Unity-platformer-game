@@ -22,5 +22,6 @@ public class levelManager : MonoBehaviour {
 	{
 		Debug.Log ("Player Respawn");
 		player.transform.position = currentCheckpoint.transform.position;
+		player.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // fixes the players checkpoint
 	}
 }
