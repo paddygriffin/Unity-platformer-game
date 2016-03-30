@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour {
 	//variables
 	public float speed;
 	public float jump;
+	private float moveVelocity;
 
 	public Transform groundCheck;
 	public float groundCheckRadius;
@@ -29,6 +30,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (grounded) {
 			doubleJump = false;
 		}
+
 		
 		if(Input.GetKeyDown (KeyCode.Space) && grounded) //player can now only jump when on the ground
 		{
@@ -41,15 +43,21 @@ public class PlayerMovement : MonoBehaviour {
 			doubleJump = true;//able to jump twice 
 		}
 
+		moveVelocity = 0f; //nothing being pressed will stop the player
+
 		if(Input.GetKey (KeyCode.D))
 		{
-			GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+			//GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+			moveVelocity = speed;
 		}
 
 		if(Input.GetKey (KeyCode.A))
 		{
-			GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, GetComponent<Rigidbody2D>().velocity.y);
+			//GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, GetComponent<Rigidbody2D>().velocity.y);
+			moveVelocity = -speed;
 		}
+
+		GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 	
 	}
 }
