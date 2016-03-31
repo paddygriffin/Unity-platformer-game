@@ -1,0 +1,82 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading U:\runningMan\Builds\build 0.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading U:\runningMan\Builds\build 0.1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  1.109 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: U:\runningMan\Builds\build 0.1_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.899352 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 298.
+Total: 0.255012 ms (FindLiveObjects: 0.031410 ms CreateObjectMapping: 0.014616 ms MarkObjects: 0.203699 ms  DeleteObjects: 0.004664 ms)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.390751 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 277.
+Total: 0.191570 ms (FindLiveObjects: 0.018348 ms CreateObjectMapping: 0.009640 ms MarkObjects: 0.154251 ms  DeleteObjects: 0.009018 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.832522 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 291.
+Total: 0.295441 ms (FindLiveObjects: 0.022391 ms CreateObjectMapping: 0.017415 ms MarkObjects: 0.247859 ms  DeleteObjects: 0.006841 ms)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.673295 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 277.
+Total: 0.294197 ms (FindLiveObjects: 0.022391 ms CreateObjectMapping: 0.017104 ms MarkObjects: 0.247548 ms  DeleteObjects: 0.005908 ms)
+
+Player Respawn
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at playerDestruction.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
