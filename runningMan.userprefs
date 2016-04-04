@@ -1,16 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\menuSelect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\scoreSubmit.cs">
     <Files>
-      <File FileName="Assets\scripts\menuSelect.cs" Line="17" Column="36" />
+      <File FileName="Assets\scripts\levelManager.cs" Line="9" Column="2" />
+      <File FileName="Assets\scripts\menuSelect.cs" Line="30" Column="27" />
       <File FileName="Assets\scripts\lifeManager.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\levelLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\levelManager.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\coinCollect.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\playerDestruction.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\checkPoint.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\scoreManager.cs" Line="17" Column="44" />
+      <File FileName="Assets\scripts\scoreManager.cs" Line="8" Column="1" />
+      <File FileName="Assets\scripts\dataBaseLeaderBoard.cs" Line="7" Column="19" />
+      <File FileName="Assets\scripts\scoreSubmit.cs" Line="10" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

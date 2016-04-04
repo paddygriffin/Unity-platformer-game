@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class levelManager : MonoBehaviour {
 
 	public GameObject currentCheckpoint;
-
 	private PlayerMovement player;
+	
 
 	//losing points
 	public int pointLoss;
@@ -28,4 +29,6 @@ public class levelManager : MonoBehaviour {
 		player.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // fixes the players checkpoint
 		scoreManager.AddPoint (-pointLoss); //calling scoreManager to takeaway points
 	}
+
+	
 }

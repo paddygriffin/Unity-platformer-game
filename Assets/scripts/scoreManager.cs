@@ -5,6 +5,10 @@ using UnityEngine.UI; //imports UI code that we need
 public class scoreManager : MonoBehaviour {
 	//using UI for score
 	public static int score;
+	public GameObject currentCheckpoint;
+	
+
+	private PlayerMovement player;
 
 	Text text;
 
@@ -37,5 +41,6 @@ public class scoreManager : MonoBehaviour {
 		score = 0;
 		PlayerPrefs.SetInt ("CurrentScore", score);
 	}
+
 
 }

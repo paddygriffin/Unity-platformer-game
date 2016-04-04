@@ -24,4 +24,9 @@ public class menuSelect : MonoBehaviour {
 		Debug.Log ("Game exiteded");
 		Application.Quit ();
 	}
+
+	public void highScore()
+	{
+		Application.LoadLevel ("leader_boards");
+	}
 }
