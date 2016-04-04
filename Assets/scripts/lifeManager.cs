@@ -18,7 +18,7 @@ public class lifeManager : MonoBehaviour {
 	void Start () {
 		theText = GetComponent<Text>();//find text object and assaign it
 
-		//lifeCounter = startingLives;     //using playprefs instead
+		//lifeCounter = startingLives;     //using playprefs instead carry info
 		lifeCounter = PlayerPrefs.GetInt ("PlayerCurrentLives");
 
 		player = FindObjectOfType<PlayerMovement> ();
@@ -38,12 +38,7 @@ public class lifeManager : MonoBehaviour {
 		theText.text = " " + lifeCounter;
 	
 	}
-
-	public void GiveLife()
-	{
-		lifeCounter++;
-		PlayerPrefs.SetInt ("PlayerCurrentLives", lifeCounter);
-	}
+	
 
 	public void TakeLife()
 	{

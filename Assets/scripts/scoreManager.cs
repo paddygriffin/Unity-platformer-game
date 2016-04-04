@@ -12,7 +12,9 @@ public class scoreManager : MonoBehaviour {
 	{
 		text = GetComponent<Text> (); //sets the score to 0
 
-		score = 0;
+		//score = 0;
+
+		score = PlayerPrefs.GetInt ("CurrentScore");
 	}
 
 	void Update ()
@@ -26,12 +28,14 @@ public class scoreManager : MonoBehaviour {
 	public static void AddPoint (int pointsAdd)
 	{
 		score += pointsAdd;
+		PlayerPrefs.SetInt ("CurrentScore", score);
 	}
 
 	//lose points
 	public static void Reset()
 	{
 		score = 0;
+		PlayerPrefs.SetInt ("CurrentScore", score);
 	}
 
 }
