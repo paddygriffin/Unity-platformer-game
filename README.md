@@ -1,6 +1,9 @@
 # mobileApp2016
 ## Patrick Griffin - G00314635
-###references: gamesplusjames  - https://www.youtube.com/user/gamesplusjames
+### Unity platformer game 
+###references: 
+gamesplusjames  - https://www.youtube.com/user/gamesplusjames
+http://wiki.unity3d.com/index.php?title=Server_Side_Highscores
 ### I also got assistance of my colleague Chris Weir for connecting my virtual machine data base to my project
 
 This project is a basic platform game where the user must collect the coins that are available. There are three levels after
